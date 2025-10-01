@@ -51,7 +51,7 @@ function preprocess(text, opts) {
 module.exports = {
   // Plugin-scoped options only
   options: {
-    txtWrapWidth: {
+    fencedTxtWrapWidth: {
       type: "int",
       category: "Global",
       default: 40,
