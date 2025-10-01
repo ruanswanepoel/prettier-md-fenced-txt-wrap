@@ -14,3 +14,16 @@ This one should also wrap after running the formatter!
 This should wrap at 10 characters becuase of the override.
 ```
 
+```
+This
+should
+unwrap
+
+This
+should
+also
+unwrap but then
+it should also
+wrap at the appropriate
+number of characters
+```

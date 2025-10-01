@@ -2,9 +2,10 @@ const markdownParser = require("prettier/parser-markdown");
 
 function wrapText(text, width = 40) {
   return text
-    .split("\n")
+    .split("\n\n")
     .map((line) => {
-      const words = line.split(" ");
+      const unwrapped = line.replace(/\s+/g, " ").trim();
+      const words = unwrapped.split(" ");
       const lines = [];
       let current = "";
       for (const word of words) {
@@ -18,7 +19,7 @@ function wrapText(text, width = 40) {
       if (current) lines.push(current);
       return lines.join("\n");
     })
-    .join("\n")
+    .join("\n\n")
     .trim();
 }
 
