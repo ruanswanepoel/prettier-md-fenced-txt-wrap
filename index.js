@@ -38,7 +38,7 @@ function parseInfoString(info) {
 }
 
 function preprocess(text, opts) {
-  const defaultWidth = opts.fenchdTxtWrapWidth || 80;
+  const defaultWidth = opts.fencedTxtWrapWidth || 80;
 
   return text.replace(/```txt(.*?)\n([\s\S]*?)```/g, (match, info, code) => {
     const blockOptions = parseInfoString(info);
