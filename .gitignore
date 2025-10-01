@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+.pnp/
+.pnp.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs / dist folders
+dist/
+build/
+
+# Test / coverage
+coverage/
+*.lcov
+
+# Prettier cache
+.prettiercache
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+

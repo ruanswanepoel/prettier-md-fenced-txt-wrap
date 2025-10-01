@@ -1,0 +1,15 @@
+{
+  "name": "prettier-md-fenced-txt-wrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "prettier-plugin"
+  ],
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test/run-tests.js"
+  }
+}
