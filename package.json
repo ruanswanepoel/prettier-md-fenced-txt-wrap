@@ -1,6 +1,6 @@
 {
   "name": "prettier-md-fenced-txt-wrap",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "keywords": [
     "prettier-plugin"
