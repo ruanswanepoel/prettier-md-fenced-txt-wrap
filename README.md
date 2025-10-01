@@ -5,16 +5,20 @@ A basic Prettier plugin that formats fenced `txt` code blocks in Markdown (or md
 ## Example
 
 Suppose you have a markdown file that contains:
+````md
 ```txt
 This is some long text that you might want to wrap automatically, but Prettier doesn't format these `txt` code blocks. So the solution was to write a custom Prettier plugin that can do this for me automatically.
 ```
+````
 
 It will format to:
+````md
 ```txt
 This is some long text that you might want to wrap automatically, but Prettier
 doesn't format these `txt` code blocks. So the solution was to write a custom
 Prettier plugin that can do this for me automatically.
 ```
+````
 
 ## Getting Started
 
