@@ -1,6 +1,6 @@
 const markdownParser = require("prettier/parser-markdown");
 
-function wrapText(text, width = 40) {
+function wrapText(text, width = 80) {
   return text
     .split("\n\n")
     .map((line) => {
