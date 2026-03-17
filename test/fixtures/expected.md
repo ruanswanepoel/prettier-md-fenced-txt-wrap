@@ -6,9 +6,12 @@ This is a short line of normal prose that should not wrap at all.
 ```txt
 This is a very long line of text in a
 txt code block that should wrap at
-default width 40. This is a short line
-of text This one should also wrap after
-running the formatter!
+default width 40.
+
+This is a short line of text
+
+This one should also wrap after running
+the formatter!
 ```
 
 ```txt wrap=10

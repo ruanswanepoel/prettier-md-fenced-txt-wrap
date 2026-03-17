@@ -38,9 +38,9 @@ function parseInfoString(info) {
 }
 
 function preprocess(text, opts) {
-  const defaultWidth = opts.fencedTxtWrapWidth || 80;
+  const defaultWidth = opts.fencedTxtWrapWidth ?? 40;
 
-  return text.replace(/```txt(.*?)\n([\s\S]*?)```/g, (match, info, code) => {
+  return text.replace(/^```txt([^\r\n]*)\r?\n([\s\S]*?)\r?\n```/gm, (match, info, code) => {
     const blockOptions = parseInfoString(info);
     const wrapWidth = blockOptions.wrap || defaultWidth;
     const wrapped = wrapText(code, wrapWidth);
